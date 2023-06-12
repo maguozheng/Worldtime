@@ -1,0 +1,23 @@
+
+      function changeImg(){
+	  
+	   var  tuPian=document.getElementById("tuPian");
+
+	 //  var i="/pic001/pic/zhuanye.jpg";
+	   
+	  var i="/pic001/pic/mingyan3/"+parseInt(Math.random()*390)+".jpg";
+
+       tuPian.src=i;
+	   
+	  //divObj.innerHTML ="<a href='http://www.alloong.com'><img src='"+i+"' width='495' height='63' border='0' align='middle'></a>"
+
+	  //setTimeout("changeImg()",60*1000);//一分钟调用一次
+
+	          }
+
+changeImg();  
+
+//document.write("<bgsound src='https://www.dragon-guide.net/css/crchbell.wav' autostart=true loop=1 /> ");
+//document.write("<bgsound src='https://www.dragon-guide.net/css/crchbell.wav' autostart=false /> ");
+
+//pic001/pic/zhuanye.jpg
